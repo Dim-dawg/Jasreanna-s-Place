@@ -23,12 +23,12 @@ export default function Home() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, ease: "easeOut" }}
           >
-            <span className="inline-block py-1 px-3 rounded-full bg-blue-500/20 text-blue-200 border border-blue-400/30 text-sm font-semibold tracking-wider uppercase mb-6 backdrop-blur-sm">
+            <span className="inline-block py-1 px-3 rounded-full bg-pink-500/20 text-pink-200 border border-pink-400/30 text-sm font-semibold tracking-wider uppercase mb-6 backdrop-blur-sm">
               A Modern CafÃ© Experience in Belize
             </span>
             <h1 className="text-5xl md:text-7xl font-serif font-bold text-white mb-6 leading-tight">
               Not Just Another <br className="hidden md:block" />
-              <span className="text-blue-300 italic">Coffee Shop</span>
+              <span className="text-pink-300 italic">Coffee Shop</span>
             </h1>
             <p className="mt-4 text-xl text-slate-200 max-w-2xl mx-auto font-light leading-relaxed mb-10">
               We're blending that modern cafÃ© vibe with real warmth, creating a space where you actually want to hang out. Great drinks, good vibes, and a place that feels like yours.
@@ -63,7 +63,7 @@ export default function Home() {
               transition={{ duration: 0.6 }}
             >
               <h2 className="text-4xl font-serif font-bold text-slate-900 mb-6">
-                The Idea Behind <span className="text-blue-600">Jasreanna's Place</span>
+                The Idea Behind <span className="text-pink-600">Jasreanna's Place</span>
               </h2>
               <div className="space-y-6 text-lg text-slate-600 leading-relaxed">
                 <p>
@@ -95,7 +95,7 @@ export default function Home() {
               </div>
               <div className="absolute -bottom-8 -left-8 bg-white p-8 rounded-3xl shadow-xl max-w-xs hidden md:block">
                 <div className="flex items-center gap-4 mb-4">
-                  <div className="p-3 bg-blue-100 text-blue-600 rounded-full">
+                  <div className="p-3 bg-pink-100 text-pink-600 rounded-full">
                     <Heart className="h-6 w-6" />
                   </div>
                   <h3 className="font-bold text-slate-900 text-lg">Authentic Connection</h3>
@@ -132,7 +132,7 @@ export default function Home() {
               {
                 icon: <MapPin className="h-8 w-8" />,
                 title: "Market Positioning",
-                desc: "Modern, trendy, and authentically welcoming. A classy white-and-blue aesthetic targeting young professionals, students, and tourists."
+                desc: "Modern, trendy, and authentically welcoming. A classy white-and-pink aesthetic targeting young professionals, students, and tourists."
               }
             ].map((pillar, idx) => (
               <motion.div
@@ -141,9 +141,9 @@ export default function Home() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: idx * 0.1 }}
-                className="bg-slate-50 rounded-3xl p-10 border border-slate-100 hover:shadow-xl hover:shadow-blue-900/5 transition-all duration-300 group"
+                className="bg-slate-50 rounded-3xl p-10 border border-slate-100 hover:shadow-xl hover:shadow-pink-900/5 transition-all duration-300 group"
               >
-                <div className="w-16 h-16 bg-white rounded-2xl shadow-sm flex items-center justify-center text-blue-600 mb-8 group-hover:scale-110 transition-transform duration-300">
+                <div className="w-16 h-16 bg-white rounded-2xl shadow-sm flex items-center justify-center text-pink-600 mb-8 group-hover:scale-110 transition-transform duration-300">
                   {pillar.icon}
                 </div>
                 <h3 className="text-2xl font-bold text-slate-900 mb-4">{pillar.title}</h3>

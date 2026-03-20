@@ -14,13 +14,13 @@ export default function Navbar() {
   ];
 
   return (
-    <nav className="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-blue-100 shadow-sm">
+    <nav className="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-pink-100 shadow-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-20">
           <div className="flex items-center">
             <Link to="/" className="flex items-center gap-2 group">
-              <div className="p-2 bg-blue-50 rounded-xl group-hover:bg-blue-100 transition-colors">
-                <Coffee className="h-6 w-6 text-blue-600" />
+              <div className="p-2 bg-pink-50 rounded-xl group-hover:bg-pink-100 transition-colors">
+                <Coffee className="h-6 w-6 text-pink-600" />
               </div>
               <span className="font-serif text-2xl font-bold text-slate-900 tracking-tight">
                 Jasreanna's Place
@@ -34,9 +34,9 @@ export default function Navbar() {
               <Link
                 key={link.path}
                 to={link.path}
-                className={`text-sm font-medium transition-colors hover:text-blue-600 ${
+                className={`text-sm font-medium transition-colors hover:text-pink-600 ${
                   location.pathname === link.path
-                    ? 'text-blue-600'
+                    ? 'text-pink-600'
                     : 'text-slate-600'
                 }`}
               >
@@ -45,7 +45,7 @@ export default function Navbar() {
             ))}
             <Link
               to="/menu"
-              className="px-5 py-2.5 rounded-full bg-blue-600 text-white text-sm font-medium hover:bg-blue-700 transition-colors shadow-sm shadow-blue-200"
+              className="px-5 py-2.5 rounded-full bg-pink-600 text-white text-sm font-medium hover:bg-pink-700 transition-colors shadow-sm shadow-pink-200"
             >
               Order Now
             </Link>
@@ -55,7 +55,7 @@ export default function Navbar() {
           <div className="flex items-center md:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="p-2 rounded-md text-slate-600 hover:text-blue-600 hover:bg-blue-50 focus:outline-none"
+              className="p-2 rounded-md text-slate-600 hover:text-pink-600 hover:bg-pink-50 focus:outline-none"
             >
               {isOpen ? <X className="h-6 w-6" /> : <MenuIcon className="h-6 w-6" />}
             </button>
@@ -70,7 +70,7 @@ export default function Navbar() {
             initial={{ opacity: 0, height: 0 }}
             animate={{ opacity: 1, height: 'auto' }}
             exit={{ opacity: 0, height: 0 }}
-            className="md:hidden border-t border-blue-50 bg-white"
+            className="md:hidden border-t border-pink-50 bg-white"
           >
             <div className="px-4 pt-2 pb-6 space-y-1">
               {links.map((link) => (
@@ -80,8 +80,8 @@ export default function Navbar() {
                   onClick={() => setIsOpen(false)}
                   className={`block px-3 py-3 rounded-xl text-base font-medium ${
                     location.pathname === link.path
-                      ? 'bg-blue-50 text-blue-600'
-                      : 'text-slate-600 hover:bg-slate-50 hover:text-blue-600'
+                      ? 'bg-pink-50 text-pink-600'
+                      : 'text-slate-600 hover:bg-slate-50 hover:text-pink-600'
                   }`}
                 >
                   {link.name}
@@ -91,7 +91,7 @@ export default function Navbar() {
                 <Link
                   to="/menu"
                   onClick={() => setIsOpen(false)}
-                  className="block w-full text-center px-5 py-3 rounded-xl bg-blue-600 text-white text-base font-medium hover:bg-blue-700 transition-colors shadow-sm shadow-blue-200"
+                  className="block w-full text-center px-5 py-3 rounded-xl bg-pink-600 text-white text-base font-medium hover:bg-pink-700 transition-colors shadow-sm shadow-pink-200"
                 >
                   Order Now
                 </Link>

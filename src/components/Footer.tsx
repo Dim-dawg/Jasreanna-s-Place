@@ -8,8 +8,8 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="col-span-1 md:col-span-1">
             <Link to="/" className="flex items-center gap-2 mb-4">
-              <div className="p-1.5 bg-blue-500/10 rounded-lg">
-                <Coffee className="h-5 w-5 text-blue-400" />
+              <div className="p-1.5 bg-pink-500/10 rounded-lg">
+                <Coffee className="h-5 w-5 text-pink-400" />
               </div>
               <span className="font-serif text-xl font-bold text-white tracking-tight">
                 Jasreanna's Place
@@ -19,13 +19,13 @@ export default function Footer() {
               A modern café experience in Belize. Blending that modern café vibe with real warmth, creating a space where you actually want to hang out.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-slate-400 hover:text-blue-400 transition-colors">
+              <a href="#" className="text-slate-400 hover:text-pink-400 transition-colors">
                 <Instagram className="h-5 w-5" />
               </a>
-              <a href="#" className="text-slate-400 hover:text-blue-400 transition-colors">
+              <a href="#" className="text-slate-400 hover:text-pink-400 transition-colors">
                 <Facebook className="h-5 w-5" />
               </a>
-              <a href="#" className="text-slate-400 hover:text-blue-400 transition-colors">
+              <a href="#" className="text-slate-400 hover:text-pink-400 transition-colors">
                 <Twitter className="h-5 w-5" />
               </a>
             </div>
@@ -35,13 +35,13 @@ export default function Footer() {
             <h3 className="text-white font-semibold mb-4">Quick Links</h3>
             <ul className="space-y-3 text-sm">
               <li>
-                <Link to="/" className="hover:text-blue-400 transition-colors">Home</Link>
+                <Link to="/" className="hover:text-pink-400 transition-colors">Home</Link>
               </li>
               <li>
-                <Link to="/menu" className="hover:text-blue-400 transition-colors">Our Menu</Link>
+                <Link to="/menu" className="hover:text-pink-400 transition-colors">Our Menu</Link>
               </li>
               <li>
-                <Link to="/media" className="hover:text-blue-400 transition-colors">Media & Gallery</Link>
+                <Link to="/media" className="hover:text-pink-400 transition-colors">Media & Gallery</Link>
               </li>
             </ul>
           </div>
@@ -50,15 +50,15 @@ export default function Footer() {
             <h3 className="text-white font-semibold mb-4">Contact Us</h3>
             <ul className="space-y-3 text-sm">
               <li className="flex items-start gap-3">
-                <MapPin className="h-5 w-5 text-blue-400 shrink-0" />
+                <MapPin className="h-5 w-5 text-pink-400 shrink-0" />
                 <span>Belize City, Belize</span>
               </li>
               <li className="flex items-center gap-3">
-                <Phone className="h-5 w-5 text-blue-400 shrink-0" />
+                <Phone className="h-5 w-5 text-pink-400 shrink-0" />
                 <span>+501 123-4567</span>
               </li>
               <li className="flex items-center gap-3">
-                <Mail className="h-5 w-5 text-blue-400 shrink-0" />
+                <Mail className="h-5 w-5 text-pink-400 shrink-0" />
                 <span>hello@jasreannasplace.bz</span>
               </li>
             </ul>

@@ -63,7 +63,7 @@ export default function Media() {
           className="mb-24"
         >
           <div className="flex items-center gap-3 mb-8">
-            <div className="p-2 bg-blue-50 text-blue-600 rounded-lg">
+            <div className="p-2 bg-pink-50 text-pink-600 rounded-lg">
               <VideoIcon className="h-6 w-6" />
             </div>
             <h2 className="text-3xl font-serif font-bold text-slate-900">The Experience</h2>
@@ -97,7 +97,7 @@ export default function Media() {
           viewport={{ once: true }}
         >
           <div className="flex items-center gap-3 mb-8">
-            <div className="p-2 bg-blue-50 text-blue-600 rounded-lg">
+            <div className="p-2 bg-pink-50 text-pink-600 rounded-lg">
               <ImageIcon className="h-6 w-6" />
             </div>
             <h2 className="text-3xl font-serif font-bold text-slate-900">Our Space</h2>

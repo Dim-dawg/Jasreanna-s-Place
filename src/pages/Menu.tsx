@@ -86,7 +86,7 @@ export default function Menu() {
                 className="bg-white rounded-3xl p-8 shadow-xl shadow-slate-200/50 border border-slate-100"
               >
                 <div className="flex items-center gap-4 mb-8 pb-6 border-b border-slate-100">
-                  <div className="p-3 bg-blue-50 text-blue-600 rounded-2xl">
+                  <div className="p-3 bg-pink-50 text-pink-600 rounded-2xl">
                     {category.icon}
                   </div>
                   <div>
@@ -99,7 +99,7 @@ export default function Menu() {
                   {category.items.map((item, itemIdx) => (
                     <div key={itemIdx} className="flex justify-between items-start group">
                       <div className="pr-8">
-                        <h3 className="text-lg font-semibold text-slate-900 group-hover:text-blue-600 transition-colors">
+                        <h3 className="text-lg font-semibold text-slate-900 group-hover:text-pink-600 transition-colors">
                           {item.name}
                         </h3>
                         <p className="text-slate-500 text-sm mt-1 leading-relaxed">
@@ -124,10 +124,10 @@ export default function Menu() {
               initial={{ opacity: 0, x: 20 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
-              className="bg-blue-600 rounded-3xl p-8 text-white sticky top-28 shadow-2xl shadow-blue-900/20"
+              className="bg-pink-600 rounded-3xl p-8 text-white sticky top-28 shadow-2xl shadow-pink-900/20"
             >
               <h3 className="text-2xl font-serif font-bold mb-6">Our Pricing Strategy</h3>
-              <div className="space-y-6 text-blue-100 leading-relaxed text-sm">
+              <div className="space-y-6 text-pink-100 leading-relaxed text-sm">
                 <p>
                   At Jasreanna's Place, our pricing is a reflection of the craftsmanship and heart we pour into every cup. We've carefully balanced our costs with the local market to ensure our prices feel fair while allowing our cafÃ© to flourish.
                 </p>
@@ -140,7 +140,7 @@ export default function Menu() {
                 <p>
                   We also want to ensure you have the perfect snack to go with your drink without compromising on taste. By partnering with talented local bakeries, we're able to offer a delicious selection of pastries and light bites for $7.00 BZD.
                 </p>
-                <p className="font-medium text-white pt-4 border-t border-blue-500/50">
+                <p className="font-medium text-white pt-4 border-t border-pink-500/50">
                   Our goal is to provide that high-end, aesthetic vibe you love, while keeping our menu grounded in the value of a great local partnership.
                 </p>
               </div>
