@@ -24,14 +24,14 @@ export default function Home() {
             transition={{ duration: 0.8, ease: "easeOut" }}
           >
             <span className="inline-block py-1 px-3 rounded-full bg-pink-500/20 text-pink-200 border border-pink-400/30 text-sm font-semibold tracking-wider uppercase mb-6 backdrop-blur-sm">
-              A Modern CafÃ© Experience in Belize
+              A Modern Café Experience in Belize
             </span>
             <h1 className="text-5xl md:text-7xl font-serif font-bold text-white mb-6 leading-tight">
               Not Just Another <br className="hidden md:block" />
               <span className="text-pink-300 italic">Coffee Shop</span>
             </h1>
             <p className="mt-4 text-xl text-slate-200 max-w-2xl mx-auto font-light leading-relaxed mb-10">
-              We're blending that modern cafÃ© vibe with real warmth, creating a space where you actually want to hang out. Great drinks, good vibes, and a place that feels like yours.
+              We're blending that modern café vibe with real warmth, creating a space where you actually want to hang out. Great drinks, good vibes, and a place that feels like yours.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
@@ -70,7 +70,7 @@ export default function Home() {
                   The basic idea behind Jasreanna's Place is that people are drawn to authenticity. This dedication is reflected in the name itself, which emphasizes friendliness, individual attention, and the kind of hospitality that makes a person feel more like a guest than a customer.
                 </p>
                 <p>
-                  Our goal is to provide more than just a delicious drink; we want to establish an environment where real human connection occurs organically. The leadership group behind the cafÃ© has extensive experience in small business operations, culinary arts, and hospitality management.
+                  Our goal is to provide more than just a delicious drink; we want to establish an environment where real human connection occurs organically. The leadership group behind the café has extensive experience in small business operations, culinary arts, and hospitality management.
                 </p>
                 <p>
                   Our employees receive extensive training that goes well beyond learning how to make drinks; we make significant investments in teaching hospitality concepts.

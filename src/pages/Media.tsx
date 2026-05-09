@@ -74,9 +74,9 @@ export default function Media() {
             <video 
               className="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity duration-500"
               controls
-              poster="https://images.unsplash.com/photo-1554118811-1e0d58224f24?q=80&w=2047&auto=format&fit=crop"
+              poster="https://images.unsplash.com/photo-1511920170033-f8396924c348?q=80&w=1974&auto=format&fit=crop"
             >
-              <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4" />
+              <source src="https://assets.mixkit.co/videos/41859/41859-1080.mp4" type="video/mp4" />
               Your browser does not support HTML video.
             </video>
             <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
@@ -86,7 +86,7 @@ export default function Media() {
             </div>
           </div>
           <p className="text-slate-500 mt-4 text-center text-sm">
-            A glimpse into our modern cafÃ© vibe and the craftsmanship behind every cup.
+            Watch our craft in action—from the perfect pour to the warm service that defines Jasreanna's Place.
           </p>
         </motion.section>
 

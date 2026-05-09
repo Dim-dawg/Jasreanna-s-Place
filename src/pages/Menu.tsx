@@ -17,7 +17,7 @@ export default function Menu() {
       icon: <CupSoda className="h-6 w-6" />,
       description: "Indulgent, Instagram-worthy beverages.",
       items: [
-        { name: "Trendy FrappÃ©", price: "$14.00 BZD", desc: "Blended iced coffee beverage with whipped cream" },
+        { name: "Trendy Frappé", price: "$14.00 BZD", desc: "Blended iced coffee beverage with whipped cream" },
         { name: "Cold Brew", price: "$14.00 BZD", desc: "Smooth, slow-steeped cold coffee" },
       ]
     },
@@ -129,13 +129,13 @@ export default function Menu() {
               <h3 className="text-2xl font-serif font-bold mb-6">Our Pricing Strategy</h3>
               <div className="space-y-6 text-pink-100 leading-relaxed text-sm">
                 <p>
-                  At Jasreanna's Place, our pricing is a reflection of the craftsmanship and heart we pour into every cup. We've carefully balanced our costs with the local market to ensure our prices feel fair while allowing our cafÃ© to flourish.
+                  At Jasreanna's Place, our pricing is a reflection of the craftsmanship and heart we pour into every cup. We've carefully balanced our costs with the local market to ensure our prices feel fair while allowing our café to flourish.
                 </p>
                 <p>
                   For those seeking the perfect caffeine fix, our signature 12-ounce lattes and cappuccinos are priced at $10.00 BZD, showcasing the premium, ethically sourced beans we use.
                 </p>
                 <p>
-                  If you're looking for something a bit more indulgent or "Instagram-worthy," our trendy frappÃ©s and cold brews sit at $14.00 BZD, while our vibrant matcha lattes are offered at $16.00 BZD to reflect their high-quality ingredients and current popularity.
+                  If you're looking for something a bit more indulgent or "Instagram-worthy," our trendy frappés and cold brews sit at $14.00 BZD, while our vibrant matcha lattes are offered at $16.00 BZD to reflect their high-quality ingredients and current popularity.
                 </p>
                 <p>
                   We also want to ensure you have the perfect snack to go with your drink without compromising on taste. By partnering with talented local bakeries, we're able to offer a delicious selection of pastries and light bites for $7.00 BZD.
